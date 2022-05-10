@@ -2,19 +2,24 @@
 This assignment took place in the course "Digital Image Processing" of Aristotle University of Thessaloniki at 8th Semester. It contains two parts which described below.
 
 ## :ledger: Description 
-### Part 1 - 
-This part implements scanline algorithm for filling triangles. It uses two methods for colouring the triangles:
-1. Flat Method : This method applies a colour to each triangle based on the mean of the three colours of triangle's vertices.
-2. Gouraud Method : This method applies a colour to each triangle's side based on the linear interpolation of the two colours of the corresponding vertices.
+### Part 1
+This part implements the following:
+1. Reconstruction of RGB image from Bayer pattern.
+2. Downsampling of RGB image.
+3. Quantization of RGB image.
+4. PPM representation.
 
-There are two different demo scripts that present the results of the two methods.
+There are different demo scripts that present the results of the first part.
 
-1st Part Assignment's Presentation(only in Greek) : [here](Part%201/hw1_2021.pdf)
+1st Part Assignment's Presentation(only in Greek) : [here](Part%201/dip-2021-hw1.pdf)
 
-### Part 2 - Transformations and Projections
-This part implements the proper functions in order to apply transformations and projections in an object. In the demo script presented examples of translations by a constant vector v and rotation by a constant matrix R.
+### Part 2
+This part implements the following:
+1. Representation of an image as a graph
+2. Image segmentation with spectral clustering method.
+3. Image segmentation with normalized cuts(n-cuts) either recursive or not.
 
-2nd Part Assignment's Presentation(only in Greek) : [here](Part%202/hw2_2021.pdf)
+2nd Part Assignment's Presentation(only in Greek) : [here](Part%202/dip-2021-hw2-v2.pdf)
 
 ##  :wrench: Development
 The files of the assignment were created with MATLAB R2018b.
